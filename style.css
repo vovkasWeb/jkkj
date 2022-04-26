@@ -1,0 +1,64 @@
+:root {
+   --color1: #05B1B1;
+   --color2: #52339a;
+}
+
+html,
+body {
+   height: 100%;
+}
+
+body {
+   background: rgb(184, 4, 173);
+   background: linear-gradient(180deg, rgba(184, 4, 173, 1) 0%, rgba(68, 0, 255, 1) 100%, rgba(30, 77, 182, 1) 100%) no-repeat;
+}
+
+.col-12 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.block {
+   margin: 45% 0;
+   padding: 15px 30px;
+   border: 1px solid #000;
+
+}
+
+.btns {
+   margin-top: 20px;
+   display: flex;
+
+}
+
+.btns a {
+   color: #000;
+   border: 1px solid #000;
+   border-radius: 10px;
+   font-weight: 700;
+   margin: 0 5px;
+}
+
+
+.btn img {
+   margin-left: 3px;
+   max-width: 30px;
+   max-height: 30px;
+
+}
+
+.text-h1 {
+   font-weight: 900;
+
+}
+
+html {
+   overflow-x: hidden;
+}
+
+.main {
+   min-width: 800px;
+
+
+}
